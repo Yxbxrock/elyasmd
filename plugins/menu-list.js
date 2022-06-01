@@ -200,7 +200,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
               {
                 "rows": [{
                   "title": `Pemilik Bot`,
-                  "description": "👤owner ganteng disini👤",
+                  "description": "nomor pemilik bot",
                   "rowId": `.owner`
                 },{
                   "title": "INFO BOT",
