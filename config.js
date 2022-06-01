@@ -47,7 +47,7 @@ global.author = '@frmndaa'
 
 
 
-ig: elyas_tzy`
+ig: frmndaa.___`
 global.caliphapi = 'ELYAS_TZY'
 
 global.wm = 'karyl-bot'
