@@ -31,7 +31,7 @@ handler.tags = ['spam']
 handler.command = /^(spam|spamwa)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = true
 handler.group = false
 handler.private = false
 
