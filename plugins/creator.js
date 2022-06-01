@@ -4,10 +4,10 @@ const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:Sy;Bot;;;
 FN: Elyas
-item.ORG: ELYAS GANTENG
-item1.TEL;waid=6285643354073:6285643354073@s.whatsapp.net
-item1.X-ABLabel:No Wa Gw gyg
-item2.EMAIL;type=INTERNET:CIE MAU STALKING GW😅
+item.ORG: frmndaa
+item1.TEL;waid=6282365089294:6282365089294@s.whatsapp.net
+item1.X-ABLabel:No Wa gw
+item2.EMAIL;type=INTERNET:😅
 item2.X-ABLabel:Email
 item3.ADR:;;🇮🇩INDONESIA;;;;
 item3.X-ABADR:ac
@@ -21,12 +21,12 @@ const sentMsg  = await conn.sendMessage(
     m.chat,
     { 
         contacts: { 
-            displayName: 'OWNER GW', 
+            displayName: 'Frmndaa', 
             contacts: [{ vcard }] 
         }
     }
 )
-await conn.reply(m.chat, "itu Nomor Orang Ganteng", sentMsg)}
+await conn.reply(m.chat, "itu Nomor Owner ku", sentMsg)}
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 
