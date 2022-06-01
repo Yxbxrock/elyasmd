@@ -27,7 +27,7 @@ conn.sendMessage(korban + '@s.whatsapp.net', {text:spam1}, {quoted:m})
     m.reply(`Berhasil mengirim spam ke nomor ${korban} 10 kali`)
 }
 handler.help = ['spam <nomor|pesan>', 'spamwa <nomor|pesan>']
-handler.tags = ['spam']
+handler.tags = ['premium']
 handler.command = /^(spam|spamwa)$/i
 handler.owner = false
 handler.mods = false
