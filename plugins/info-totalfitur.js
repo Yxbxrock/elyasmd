@@ -4,7 +4,7 @@ let totalf = Object.values(global.plugins).filter(
   ).length;
 m.reply(conn.sendBut(m.chat, `╭━━━〔karyl-bot〕━━━⬣ 
 ┃𓃠 *Version*
-┃➺ ${vs}
+┃➺3.5.4
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *total fitur*
 ┃➺ ${totalf}
@@ -13,7 +13,7 @@ m.reply(conn.sendBut(m.chat, `╭━━━〔karyl-bot〕━━━⬣
 ╰━━━━━━━━━━━━━━━━━━━━━⬣`, gt , `Menu`, '.menu',  m))
 }
 
-handler.help = ['totalctr | totalfeature']
+handler.help = ['totalfitur']
 handler.tags = ['info']
 handler.command = /^(totalfitur|totalfeature|featuretotal|ctrtotal|totalcaracteristicas|caracteristicastotal|totalctrtc|totalcttc|totalctrt|totalctrs|totalctr)$/i
 handler.exp = 5
