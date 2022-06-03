@@ -184,7 +184,7 @@ module.exports = {
                     isBanned: false,
                     welcome: true,
                     detect: false,
-                    sWelcome: 'Hai selamat datang di Group @subject\n\n@desc',
+                    sWelcome: 'Hai selamat datang di Group\n@subject\n\n@desc',
                     sBye: 'selamat tinggal!',
                     sPromote: '',
                     sDemote: '',
